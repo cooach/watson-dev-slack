@@ -17,5 +17,4 @@ const discovery = new DiscoveryV1({
   url: '<service_url>',
   version: '<version-date>'
 });
-
 discovery.setAccessToken('<access-token>')
