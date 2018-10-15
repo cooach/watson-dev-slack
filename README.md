@@ -17,5 +17,12 @@ const discovery = new DiscoveryV1({
   url: '<service_url>',
   version: '<version-date>'
 });
-
 discovery.setAccessToken('<access-token>')
+  
+var DiscoveryV1 = require('watson-developer-cloud/discovery/v1');
+
+var discovery = new DiscoveryV1({
+    version: '{version}',
+    username: '{username}',
+    password: '{password}'
+  });
